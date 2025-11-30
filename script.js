@@ -29,7 +29,7 @@
                     isValid = false;
                     messages.push("Password must be at least 8 characters long.");
                 }
-
+                  feedbackDiv.style.display = "block";
                 // Display feedback
                 if (isValid) {
                     feedbackDiv.textContent = "Registration successful!";
